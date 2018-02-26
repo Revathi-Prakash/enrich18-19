@@ -34,7 +34,7 @@ int main()
 
     for(i = 0; i <s; i++)
     {
-    printf("%d", a[i]);
+        printf("%d", a[i]);
     }
 
 
