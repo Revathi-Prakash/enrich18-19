@@ -1,4 +1,5 @@
-// Using bitwise operator. #include<stdio.h>
+// Using bitwise operator.
+#include<stdio.h>
 int main()
 {
   int t,count=0,n,a;
