@@ -1,4 +1,4 @@
-#include<stdio.h>
+// Using bitwise operator. #include<stdio.h>
 int main()
 {
   int t,count=0,n,a;
@@ -7,12 +7,12 @@ int main()
   a=n;
   while(a>0)
   {
-   t=a&1;
+   t=a&1;// Bitwise-AND and Bitwise OR operators are operating on the individual bits of the operands.
    if(t==1)
    {
      count++;
    }
-   a=a>>2;
+   a=a>>2; // shift right by 1 bit is equivalent to division by 2.
   }
   printf("%d",&count);
  }
