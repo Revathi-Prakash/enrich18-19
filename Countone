@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+  int t,count=0,n,a;
+  printf("enter the decimal number");
+  scanf("%d",&n);
+  a=n;
+  while(a>0)
+  {
+   t=a&1;
+   if(t==1)
+   {
+     count++;
+   }
+   a=a>>2;
+  }
+  printf("%d",&count);
+ }
+  
