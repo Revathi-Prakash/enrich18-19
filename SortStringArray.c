@@ -20,8 +20,8 @@ int main()
         for(j=i+1;j<n;j++)
         {
             if((strlen(a[i])==strlen(a[j]) && strcmp(a[i],a[j])>0) || strlen(a[i])>strlen(a[j])) 
-            
-              {  strcpy(t,a[i]);
+            {  
+                strcpy(t,a[i]);
                 strcpy(a[i],a[j]);
                 strcpy(a[j],t);
             }
