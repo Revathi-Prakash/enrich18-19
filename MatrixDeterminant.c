@@ -4,8 +4,8 @@ int main()
     int n,i,j,m;
     printf("Enter the order of the square matrix");
     scanf("%d",&n);
-   	float c=0,det=1;
-   	int a[20][20];
+    float c=0,det=1;
+    int a[20][20];
     printf("Enter the matrix elements");
     
     for(i=0;i<n;i++)
