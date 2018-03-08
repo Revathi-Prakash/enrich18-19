@@ -1,3 +1,4 @@
+//matrix determinant using gauss elimination method.
 #include <stdio.h>
 int main()
 {
