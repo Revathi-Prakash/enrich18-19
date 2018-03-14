@@ -16,9 +16,11 @@ float DetOfMat(int flag,int n,float a[n][n])
 	    }
 	 }
       }
-    	/* when flag=1,it indicates that interchange of rows.
+     /* 
+     	when flag=1,it indicates that interchange of rows.
     	When two rows of a matrix are interchanged then the  determinant of
-    	the resultant matrix is equal to (-1*determinant) of the matrix.*/
+    	the resultant matrix is equal to (-1*determinant) of the matrix.
+     */
 
     for(i=0; i<n; i++)
     {
