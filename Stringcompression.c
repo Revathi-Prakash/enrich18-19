@@ -18,7 +18,7 @@ int compress(char s[])
         if(count>1)
         {
          printf("%c%d",s[i],count);
-         i=j;      // i is assigned to the index value where the character is not equal to the character in the previous index. 
+         i=j;      // i is assigned to the index value ,containing the next distinct character. 
         }
         
     }
