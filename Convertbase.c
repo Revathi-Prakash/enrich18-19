@@ -2,7 +2,7 @@
 //representation of the decimal number with the given base 
 int convertbase(int num,int base)
 {
-    int rem[10],temp=0,i=0,j;
+    int rem[10],temp=0,i=0;
     while(num>0)
     {
         rem[i]=num%base;                    
@@ -37,4 +37,5 @@ int main()
         return 0;
     }
     convertbase(num,base);
+    return 0;
 }
