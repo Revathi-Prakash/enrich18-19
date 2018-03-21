@@ -1,7 +1,7 @@
 #include<stdio.h>
 /*
-The number with the given base is equal to the remainder 
-obtained from dividing the given decimal num by the base.
+The representation of decimal number with the given base is equivalent 
+to representing the remainder obtained from dividing the given decimal number by the base.
 */
 int convertbase(int num,int base)
 {
