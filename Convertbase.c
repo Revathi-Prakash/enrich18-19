@@ -1,20 +1,19 @@
 #include<stdio.h>
-//representation of the decimal number with the given base 
+/*
+The number with the given base is equal to the remainder 
+obtained from dividing the given decimal num by the base.
+*/
 int convertbase(int num,int base)
 {
-    int rem[10],temp=0,i=0;
+    int rem,temp=0,i=1;
     while(num>0)
     {
-        rem[i]=num%base;                    
+        rem=num%base;  
+        temp=temp+(i*rem);       //remainder at each iteration is multiplied with multiples of ten.
         num=num/base;
-        i++;
+        i=i*10;      
     }
-    i--;
-    while(i>=0)
-    {
-        temp=rem[i]+temp*10;         
-        i--;
-    }
+    
     printf("%d",temp);
     return 0;
 }
